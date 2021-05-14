@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">PocketSphinx Demo</string>
+    
+    <string name="kws_caption">To start demonstration say \"wakeup\".</string>
+    <string name="next_caption">Say \"next\" to move the next step (all grammar examples).</string>
+    <string name="back_caption">Say \"back\" to move the previous step (all grammar examples).".</string>
+    <string name="quit_caption">Say \"quit\" to end recipe (all grammar examples).</string>
+
+    <string name="welcomeStr">Welcome to the Recipe Reader!</string>
+    <string name="stepNumberText">Step #1</string>
+    <string name="chocolateChipCookieContentDescription">This is a picture of a chocolate chip cookie</string>
+    <string name="chocolateCakeContentDescription">This is a picture of a chocolate cake</string>
+    <string name="cookButtonText">Cook Now!</string>
+    <string name="stepDirectionsText">Preheat oven to 350 degrees F (175 degrees C).</string>
+
+    <string name="infoTitleText">Commands Info</string>
+    <string name="command1Text">1. NEXT: Advances to the next step.</string>
+    <string name="command2Text">2. BACK: Reads the previous step.</string>
+    <string name="command3Text">3. REPEAT: Reads the most recent step again.</string>
+    <string name="command4Text">4. SKIP: Skips to the step you are choosing. Steps entered must be between 1 and last step.</string>
+    <string name="command5Text">5. QUIT: Stops making the recipe and returns you to the home screen.</string>
+    <string name="command6Text">6. FINISH: Displays these commands.</string>
+
+    <string name="infoButtonText">INFO</string>
+    <string name="nextButtonText">NEXT</string>
+    <string name="backButtonText">BACK</string>
+    <string name="repeatButtonText">REPEAT</string>
+    <string name="skipButtonText">SKIP</string>
+    <string name="quitButtonText">QUIT</string>
+    <string name="doneButtonText">DONE</string>
+    <string name="yesButtonText">YES</string>
+    <string name="noButtonText">NO</string>
+
+
+    <string name="onOffButtonStr">Off</string>
+    <string name="micContentDescription">Image of Mic</string>
+    <string name="chocolateChipCookieLabel">Chocolate Chip Cookies</string>
+    <string name="chocolateCakeLabel">Chocolate Cake</string>
+    <string name="ingredientTitleStr">Ingredients</string>
+
+    <string name="skipPromptText">Which step would you like to skip to?</string>
+    <string name="quitPromptText">Are you sure you want to quit?</string>
+    <string name="title_activity_quit_popup">QuitPopup</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

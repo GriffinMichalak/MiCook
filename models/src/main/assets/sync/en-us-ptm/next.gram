@@ -1,0 +1,5 @@
+#JSGF V1.0;
+
+grammar next;
+
+public <item> = next;

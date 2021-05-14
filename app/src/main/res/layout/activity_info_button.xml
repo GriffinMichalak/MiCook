@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".MainActivity"
+    android:transitionGroup="true">
+
+    <TextView
+        android:id="@+id/infoTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="623dp"
+        android:text="@string/infoTitleText"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="623dp"
+        android:text="@string/infoTitleText"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/command1"
+        android:layout_width="520dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/command1Text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/command2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoTitle2" />
+
+    <TextView
+        android:id="@+id/command2"
+        app:layout_constraintBottom_toTopOf="@+id/command3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoTitle2"
+        android:layout_width="522dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="44dp"
+        android:text="@string/command2Text"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/command3"
+        android:layout_width="517dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="48dp"
+        android:text="@string/command3Text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/command4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoTitle2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/command4"
+        android:layout_width="513dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="47dp"
+        android:text="@string/command4Text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/command5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoTitle2"
+        app:layout_constraintVertical_bias="0.91" />
+
+    <TextView
+        android:id="@+id/command5"
+        android:layout_width="511dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/command5Text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/command6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/command6"
+        android:layout_width="519dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="42dp"
+        android:text="@string/command6Text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoTitle2"
+        app:layout_constraintVertical_bias="0.779" />
+
+    <Button
+        android:id="@+id/infoDoneButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/command6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:onClick="doneButton"
+        android:text="@string/doneButtonText" />
+
+</android.support.constraint.ConstraintLayout>
